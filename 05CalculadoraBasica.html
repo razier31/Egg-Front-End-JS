@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<!-- 5. Construir un programa que simule un menú de opciones para realizar las cuatro
+operaciones aritméticas básicas (suma, resta, multiplicación y división) con dos valores
+numéricos enteros. El usuario, además, debe especificar la operación con el primer
+carácter de la operación que desea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’
+o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.  -->
+<body>
+    <h2>Calculadora</h2>
+    <label for="num1">Valor 1 </label><input type="number" id="num1"><br>
+    <label for="num2">Valor 2 </label><input type="number" id="num2"><br>
+    <h3>Operaciones</h3>
+    <input type="radio" name="operacion" value="s">Suma <br>
+    <input type="radio" name="operacion" value="r">Resta <br>
+    <input type="radio" name="operacion" value="m">Multiplicacion <br>
+    <input type="radio" name="operacion" value="d">Division <br>
+    <button id="btn">Resolver</button>
+    <h2>Resultado</h2>
+    <h3 id="resultado"></h3>
+    <script src="Scripts\05Script.js"></script>
+</body>
+</html>
